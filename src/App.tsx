@@ -9,13 +9,19 @@ import useWindowDimensions from "./hooks/useDimensions";
 
 const App = () => {
   const { width } = useWindowDimensions();
-  
+
   return (
     <>
       <BrowserRouter>
-        <Header />
-        <Router />
-        {width > 768 && <Footer />}
+        <div className="layout">
+          <Header />
+
+          <div className="main">
+            <Router />
+          </div>
+
+          {width > 768 && <Footer />}
+        </div>
       </BrowserRouter>
     </>
   );
