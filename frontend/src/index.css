@@ -1,19 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities; 
-
-
 /* This injects Tailwind's base styles and any base styles registered by plugins. */
-/* @import 'tailwindcss/base'; */
-
+@tailwind base;
 /* This injects Tailwind's component classes and any component classes registered by plugins. */
-/* @import 'tailwindcss/components'; */
-
+@tailwind components;
 /* This injects Tailwind's utility classes and any utility classes registered by plugins. */
-/* @import 'tailwindcss/utilities'; */
+@tailwind utilities;
 
 * {
   margin: 0;
