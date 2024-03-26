@@ -9,8 +9,6 @@ const Navbar = () => {
   const [linkActive, setLinkActive] = useState('');
   const [menuToggle, setMenuToggle] = useState(false);
 
-  console.log({ linkActive });
-
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
